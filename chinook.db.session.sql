@@ -103,6 +103,9 @@ GROUP BY InvoiceId
 -- 18
 
 -- 19
+SELECT 
+    SUM(i.total) AS TotalSales,
+    e.firstname
 
 -- 20
 
